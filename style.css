@@ -1,0 +1,86 @@
+body{
+    background-image: url(./images/Arnold.gif);
+}
+
+#outbox{
+    display: block;
+    height: 800px;
+    width: 700px;
+    border: solid 1px black;
+    background-color: white;
+}
+
+#title{
+    margin-bottom: 150px;
+    display: block;
+    font-size: 26px black;   
+}
+
+#campi{
+    /*border: solid 1px black;*/
+    display: flex;
+    flex-direction: column;
+}
+
+.label1{
+    margin-top: 50px;
+    margin-left: 25px;
+    
+}
+.label2{
+    margin-top: 15px;
+    margin-left: 25px;
+    
+}
+.label3{
+    margin-top: 15px;
+    margin-left: 25px;
+}
+
+#num1{    
+    text-align: center;
+    max-width: 150px;
+    display: inline;
+    margin-left: 100px;
+    background-color: #8addbe;
+    color: black;
+    padding: 15px;
+    margin-top: 5px; 
+}
+
+#num2{  
+    text-align: center;
+    display: inline;
+    max-width: 150px;
+    margin-left: 57px;
+    margin-top: 5px; 
+    background-color: #8addbe;
+    color: black;
+    padding: 15px;
+    width: 200px;
+}
+
+#num3{  
+    text-align: center;
+    display: inline;
+    max-width: 150px;
+    margin-left: 117px;
+    margin-top: 5px; 
+    background-color: #8addbe;
+    color: black;
+    padding: 15px;
+}
+
+#risposta1{
+    margin-top: 75px;
+    margin-left: 25px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#risposta2{
+    margin-top: 35px;
+    margin-left: 25px;
+    font-size: 20px;
+    font-weight: 300;
+}
