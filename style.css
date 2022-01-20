@@ -1,6 +1,7 @@
 
 #outbox{
     display: block;
+    margin: 0 auto;
     height: 800px;
     width: 700px;
     border: solid 1px black;
