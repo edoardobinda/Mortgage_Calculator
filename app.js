@@ -1,4 +1,4 @@
-function mannaggia(){
+function mortgage(){
     
     let a = parseInt(document.getElementById("num1").value);
     let b1 = parseInt(document.getElementById("num2").value);
@@ -25,22 +25,22 @@ function mannaggia(){
         (document.getElementById("num2").value.length !== 0) &&
         (document.getElementById("num3").value.length !== 0)) {
 
-        document.getElementById("risposta1").innerHTML = "La crana che ci devi cacciare ogni mese è = " + finale3 + " euri";
+        document.getElementById("risposta1").innerHTML = "Your monthly payment for the mortgage is = " + finale3 + " euros";
         
         if (anni > 1){
-            document.getElementById("risposta2").innerHTML = "Il tuo mutuo si estinguerà in " + anni + " anni e " + mesitotali + " mesi.";
+            document.getElementById("risposta2").innerHTML = "The mortgage will be paid off in full in " + anni + " years and " + mesitotali + " months.";
         }
         else if ((anni == 1) && (mesitotali == 0)){
-            document.getElementById("risposta2").innerHTML = "Il tuo mutuo si estinguerà in 1 anno.";
+            document.getElementById("risposta2").innerHTML = "The mortgage will be paid off in full in 1 year.";
         } 
         else if ((anni == 1) && (mesitotali < 12)){
-            document.getElementById("risposta2").innerHTML = "Il tuo mutuo si estinguerà in 1 anno e " + mesitotali + " mesi.";
+            document.getElementById("risposta2").innerHTML = "The mortgage will be paid off in full in 1 year and " + mesitotali + " months.";
         }
         else if ((anni < 1) && (mesitotali < 12) && (mesitotali >= 2)){
-            document.getElementById("risposta2").innerHTML = "La tua opzione mutuo-perpetuos si estinguerà in " + mesitotali + " mesi.";
+            document.getElementById("risposta2").innerHTML = "The mortgage will be paid off in full in " + mesitotali + " months.";
         }
         else if ((anni < 1) && (mesitotali < 2)){
-            document.getElementById("risposta2").innerHTML = "La tua opzione mutuo-perpetuos si estinguerà in " + mesitotali + " mese.";
+            document.getElementById("risposta2").innerHTML = "The mortgage will be paid off in full in " + mesitotali + " month.";
         }
     }
 }   
